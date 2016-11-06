@@ -5,27 +5,30 @@
 div.container {
     width: 100%;
     border: 1px solid gray;
+    color: blue;
 }
 
-header, footer, body {
-color: blue;
-}
-
-header, footer {
+header {
     padding: 1em;
     background-color: #ffb84d;
-    clear: left;
-    text-align: center;
+}
+
+footer{
+    background-color: #ffb84d;
+    bottom:0;
 }
 
 footer ul{
-list-style: none;
+    list-style: none;
+overflow: hidden;
 
 }
 
 footer li{
-float: right;
-    padding-left: 16px;
+    float: right;
+    padding: 8px;
+    border-right: 2px solid #e68a00;
+
 }
 
 nav {
@@ -44,6 +47,11 @@ nav ul a {
     text-decoration: none;
 }
 
+nav li{
+    padding: 16px;
+    border-bottom: 2px solid #e68a00;
+}
+
 article {
     margin-left: 170px;
     border-left: 1px solid gray;
@@ -53,7 +61,7 @@ article {
 
 p {
     text-indent: 3em;
-color: blue;
+    color: blue;
 }
 
 a {
