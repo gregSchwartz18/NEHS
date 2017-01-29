@@ -54,6 +54,7 @@ div.container {
          border-left: 1px solid gray;
          padding: 1em;
          overflow: hidden;
+         min-height: 300px;
          }
          p {
          text-indent: 3em;
